@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+
+          <form class="form_complete gradient" action="index.html" method="post">
+
+            <div class="form_information_rest">
+              <div class="header">
+                <h1>Create an account</h1>
+                <p>It's free and always will be.</p>
+              </div>
+              <div class="form_information_name">
+                <input type="text" class="name_form" placeholder="First name" name="firstname" request/>
+                <input type="text" class="surname_form" placeholder="Surname" name="surname" request/>
+              </div>
+              <input type="email"  placeholder="Email or mobile number" name="emailaccount" request/>
+              <input type="tel"  placeholder="Re-enter email or mobile number" name="mobilephone" request/>
+              <input type="password" placeholder="New password" name="userpassword" request/>
+            </div>
+
+            <div class="bday">
+              <label for="">Birthday</label><br>
+              <select id="day_bday"  name="">
+                <option value="">Day</option>
+              </select>
+
+              <select id="month-bday"  name="">
+                <option value="">Month</option>
+              </select>
+
+              <select id="year-bday"  name="">
+                <option value="">Year</option>
+              </select>
+
+              <a href="#" id="bday">Why do I need to provide my date of birth?</a>
+            </div>
+            <fieldset>
+              <input type="radio" name="" value=""><label for="">Female
+              </label>
+              <input type="radio" name="" value=""><label for="">Male
+              </label>
+            </fieldset>
+
+            <p><small>By clicking Create an account, you agree to our <a href="#">Terms </a>and that you have read our <a href="#">Data Policy,</a>including our <a href="#">Cookie use.</a></small></p>
+
+            <button type="button" name="button">Create an account</button>
+          </form>
+
+      </div>
+
+
+<script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
